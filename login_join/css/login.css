@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrap{width:100%; overflow:hidden;}
+
+#contents{margin:0 auto; width:1000px; height:550px;}
+
+.login_txt1{margin:95px 0 0 99px; width:799px; height:43px; border-bottom:1px solid #ccc;}
+.login_txt1 .login_title{font:bold 24px "맑은 고딕"; color:#f15a22;}
+.login_txt1 h2{color:#000; font-size:15px;}
+
+.cont1{margin:99px 0 99px 99px; width:439px; height:271px; float:left;}
+.cont1 .cont1_inner1{width:301px; height:22px;}
+.cont1_inner1 img{margin-right:10px;}
+.cont1_inner1 li a{color:#000;}
+.cont1_inner1 li:first-child{margin-right:46px; font-size:15px;}
+.cont1_inner1 li:last-child{font-size:15px;}
+
+.cont1_inner2{margin-top:17px; width:438px; height:94px;}
+.cont1_inner2 .cont1_inner2_idpw{width:323px; height:92px;float:left;}
+.cont1_inner2 .idpw{width:323px; height:40px; border:1px solid #ccc; padding:6px; box-sizing: border-box;}
+.cont1_inner2 .idpw1{margin-bottom:6px;}
+
+.cont1_inner2 .cont1_inner2_btn a{float:right; padding:35px 25px 30px; font-size:16px; box-sizing:border-box; background:#ff6600; display:block;}
+.cont1_inner2_btn a{color:#fff; cursor:pointer;  transition: 0.5s;}
+.cont1_inner2_btn a:hover{background:#e25a00;}
+
+.cont1_inner2 .id_save{display:inline-block; margin:22px 64px 0 0;}
+.cont1_inner2 .id_search{display:inline-block}
+.cont1_inner2 .id_search a{color:#000;}
+.cont1_inner2 .id_search a:hover{text-decoration: underline;}
+.cont1_inner2 .chk{position:relative; top:2px;}
+.cont1_inner2 .cont1_inner2_join{width: 438px; height:70px; margin-top:30px;}
+.cont1_inner2_join .airplane{float:left; margin-right:15px;}
+.cont1_inner2_join span{color:#ff6600; font-weight:bold;}
+.cont1_inner2_join .join_us{line-height:1.5; float:left;}
+
+.cont1_inner2_join .join_us_btn
+a{display:block; background:#ff6600; padding:15px 18px 15px; font-size:16px; box-sizing:border-box; float:right;color:#fff; transition: 0.5s;}
+.cont1_inner2_join .join_us_btn a:hover{background:#e25a00;}
+
+
+
+
+
+.cont2{margin:70px 85px 0 5px; width:358px; height:283px; float:right;}

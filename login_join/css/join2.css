@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrap{width:100%; overflow:hidden;}
+
+#contents{margin:0 auto; width:1000px; height: 1300px;}
+    
+    .login_txt1{margin:95px 0 0 99px; width:799px; height:43px; border-bottom:1px solid #ccc;}
+    .login_txt1 .login_title{font:bold 24px "맑은 고딕"; color:#f15a22;}
+    .login_txt1 h2{color:#000; font-size:15px;}
+#contents .join_top{margin:24px 0 0 95px;}
+
+#contents .cont1_title{font:bold 15px "맑은 고딕"; margin:50px 0 0 97px;}
+#contents .cont1_title_span1{float:left;}
+#contents .cont1_title_span2{float:right; margin-right:110px; font-size:12px; line-height:3; font-weight: normal;}
+#contents .cont1_title_span3{color:#f15a22;}
+
+#contents .cont1{line-height: 2.7; margin:85px 0 0 94px;}
+#contents .cont1 table{border-collapse: collapse; width:800px;}
+
+#contents  .cont1 table, #contents .cont1 th,#contents .cont1 td{border:1px solid #ccc;}
+#contents  .cont1 th,#contents  .cont1 td{padding:10px;}
+#contents  .cont1 th{width:120px;background:#ddd;text-align: left;font-size:13px; border-bottom:1px solid #fff;}
+
+#contents .cont1 .size1{padding:5px; box-sizing: border-box;}
+#contents .cont1 .id, .pw{margin-right:3px;}
+#contents .cont1 .btn{width:65px;height:24px;border:none;cursor: pointer;position:relative;top:2px; margin-right:5px;}
+
+#contents .cont1 .eng_name1{margin-top:5px;}
+#contents .cont1 .eng_name2{margin-top:-12px; font-weight: bold;}
+
+#contents .cont1 .size_1{margin-right:7px; font-size:12px; padding-right:15px;}
+#contents .cont1 .birth{width:65px; height:20px; margin-right:3px; margin-top:10px;}
+#contents .cont1 .birth_month{width:40px; margin:0 3px 0 10px;}
+#contents .cont1 .birth_day{width:40px; margin:0 3px 0 10px;}
+
+#contents .cont1 .checked{position: relative; top:2px;}
+
+#contents .cont1 .size2{width:64px;height:24px;border:1px solid #a9a9a9;padding:5px;box-sizing: border-box;}
+#contents .cont1 .pd{margin:0 40px 0 9px;}
+#contents .cont1 .sel{width:64px;height:24px;border:1px solid #a9a9a9;}
+
+#contents .cont1 .agree1{margin-left:100px;}
+#contents .cont1 .agree2{margin-left:108px;}
+#contents .cont1 .agree3{margin-left:28px;}
+
+#contents .cont1 .email_sms{font-weight: bold;}
+    #contents .cont1 .email_sms2{margin:-3px 0 3px 0;}
+    #contents .cont1 .email_sms3{margin:-11px 0;}
+
+#contents .final_info{margin-top:10px; font-size:12px; font-weight:bold;}
+
+#contents .join_btn a{background:#ff6600; color:#fff; width:190px; height:40px; display: block; text-align: center; font-size:15px; font-weight: bold; margin:30px 0 0 310px; transition: 0.5s;}
+#contents .join_btn a:hover{background: #e25a00;}

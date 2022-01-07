@@ -1,0 +1,1069 @@
+<!DOCTYPE HTML>
+<html lang="ko" style="width: 100%;">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-compatible" content="IE=Edge, chrome=1" />
+<title>롯데관광::명품여행</title>
+
+
+<link href="/statics/css/import.css" rel="stylesheet"></link>
+<script type="text/javascript" src="/statics/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="/statics/js/validation/jquery.validate.js"></script>
+<script type="text/javascript" src="/statics/js/jquery-ui.min_slider.js"></script>
+<script type="text/javascript" src="/statics/js/ui.js"></script>
+<script type="text/javascript" src="/statics/js/ui_common.js"></script>
+
+<script type="text/javascript" src="/statics/js/ltsearch_for_pc_v0.01.js"></script>
+
+<script type="text/javascript" src="/statics/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/statics/js/jquery.printelement.js"></script>
+
+<!-- GA -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129006743-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-129006743-1');
+  gtag('config', 'AW-965585187');
+</script>
+
+<!-- FaceBook -->
+<!-- Facebook Pixel Code -->
+<script>
+ !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '488509288298539');
+  //fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=488509288298539&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- KaKao -->
+<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js"></script>
+<script type="text/javascript">
+	kakaoPixel('3395298901761345871').pageView();
+</script>
+
+<!-- 크리테오 -->
+<script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>
+<script type="text/javascript">
+window.criteo_q = window.criteo_q || [];
+window.criteo_q.push(
+        { event: "setAccount", account: 29317 },
+        { event: "setHashedEmail", email: "" },
+        { event: "setSiteType", type: "d" },
+        { event: "viewHome" }
+);
+</script>
+
+<!-- 찜하기 Fnc -->
+<script type="text/javascript">
+function fnCartTracking(evtCd, price, title){   // price :: 파라미터 추가(상품 또는 행사 가격),  evtCd  :: 행사 또는 상품ID, title :: 상품 또는 행사명
+	gtag('event', 'add_to_cart', {"items": [{ "id": evtCd, "quantity": 1, "price": '0' }]});	// ga
+	fbq('track', 'AddToWishlist');	// facebook
+    kakaoPixel('3395298901761345871').viewCart();	// KaKao
+    /* 크리테오 */
+    window.criteo_q = window.criteo_q || [];
+    window.criteo_q.push( 
+    		{ event: "setAccount", account: 29317 },
+            { event: "setHashedEmail", email: "" },
+            { event: "setSiteType", type: "d" },
+            { event: "viewBasket", item: [ 
+                  { id: evtCd, price: price, quantity: 1 }   // price 추가함
+    ]});
+    /* TG */
+    var wptg_tagscript_vars = wptg_tagscript_vars || [];
+    wptg_tagscript_vars.push(
+    (function() {
+    	return {
+    		wp_hcuid:"",
+    		ti:"11330",
+    		ty:"Cart",
+    		device:"web"
+    		,items:[
+    			 //{i:evtCd,	t:""} /* 첫번째 상품  - i:상품 식별번호  (Feed로 제공되는 식별번호와 일치 ) t:상품명 */
+    			 {i: evtCd,	t: title}
+    		]
+    	};
+    }));
+    /* 모비온 */
+    var sh = new EN();
+    sh.setData("sc", "d645f590e5968dde8bf88016b65bbb5e");
+    sh.setData("userid", "lottetours");
+    sh.setData("pcode", evtCd);
+    sh.setData("price", price); //2018-11-7 신문섭 추가
+    sh.setData("pnm", encodeURIComponent(encodeURIComponent(title)));  // title  추가함
+    sh.setSSL(true);
+    sh.sendRfShop();
+    sh.sendWish();
+}
+</script>
+
+
+<script type="text/javascript" src="/statics/js/storage_func.js?n=ltmenu20191122091309"></script>
+<script type="text/javascript" src="http://www.lottetour.com/static/menu/ltmenu20191122091309.js?v=1.116" ></script><!-- server menu js -->
+<!-- <script type="text/javascript" src="/static/menu/ltmenu_data.js?v=1.116&n=ltmenu20191122091309" ></script>--><!-- local js -->
+<script type="text/javascript" src="/statics/js/ltmenu_for_pc_v0.01.js?v=1.115&n=ltmenu20191122091309" ></script>
+
+<meta property="og:title" content="서유럽 6개국 12일">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://image1.lottetour.com/static/promotion/2018/10/358/list.jpg">
+<meta property="og:description" content="선물같은 여행"><!-- 메뉴처리 js 영역 -->
+  
+ <style type="text/css">
+img[src=""]{display:none}
+</style>
+ 
+</head>
+  
+<body>
+ 
+<div class="wrap">
+
+	<a href="#contents" id="skip_nav">본문 바로가기</a>	
+	<!-- //top_banner -->
+	
+	<div id="header">
+		
+
+
+
+
+<div class="tops">
+	<div class="inner">
+		<ul class="left">
+			<li><a href="/welcome">해외여행</a></li>
+			<li><a href="/main/domestic">국내여행</a></li>
+			<li><a href="http://air.lottetour.com/findAirSearch.lts">항공권</a></li>
+			<li><a href="/main/magazine">여행정보</a></li>
+		</ul>
+		<ul class="util">
+			<li>
+				
+					
+					
+						<!-- <a href="#n" onclick="login('');" id="devLoginText" log="false">로그인</a> -->
+						<a href="/login" >로그인</a>
+						<li><a href="/join/step01">회원가입</a></li>
+					
+				
+			</li>
+			<li>
+				<a href="/mypage">마이페이지</a>
+			</li>
+			<li>
+				<a href="/mypage/booking">예약확인/결제</a>
+			</li>
+			<li><a href="/cs">고객센터</a></li>
+		</ul>
+	</div><!-- //inner -->
+</div><!-- //tops -->
+<div id="loginPop"></div>
+<div class="mid">
+			
+
+
+
+<div class="inner">
+	<h1><a href="/welcome"><img src="/statics/images/logo.gif" alt="롯데관광 lotte tour" /></a></h1>
+	<h2 class="area_name" id="m_menu_area_name"></h2>
+	<form id="totalSearchForm" name="searchMainTop" method="get" action="/search">
+	<div class="total_search" id="totalSearch">		
+		<div class="search_set">
+
+
+
+
+
+
+
+			<select name="cateName" id="devSerchCate_Top"><option value="total">통합검색</option></select>
+			<input type="text" id="totalSearchWrd" name="kwd" title="통합검색" placeholder="" />
+			
+			<a href="" id="btnTotalSearch" ><img src="/statics/images/btn_search_lens.gif" alt="검색" /></a>
+		</div>
+		<ul id="suggestionsList" style="z-index:30000;"></ul>
+		<!--  추천 검색어 부분 삭제
+		<div class="relation">
+			
+			<a href="#n" class="more"><img src="" alt="" /></a>
+		</div>
+		 -->
+	</div>
+	</form>
+	<ul class="btns">
+		<li><a href="/promotion">기획전/이벤트</a></li>
+		<li><a href="/hotsale">핫세일</a></li>
+		<li><a href="/homeshopping">홈쇼핑</a></li>
+	</ul>
+</div>
+<script type="text/javascript">
+function searchMainGnbList(){  // 통합 검색 텍스트 박스 드롭다운
+	var $list = $('#devSerchCate_Top');
+	var level = [
+		{ use:true, on:false, catek:'globalpackage', caten:'해외패키지' },
+		{ use:true, on:false, catek:'cruise', caten:'크루즈' },
+		{ use:true, on:false, catek:'home', caten:'국내여행' },
+		{ use:false, on:false, catek:'free', caten:'자유여행' },
+		{ use:false, on:false, catek:'busan', caten:'부산/지방출발' },
+		{ use:false, on:false, catek:'honeymoon', caten:'허니문' },
+		{ use:false, on:false, catek:'golf', caten:'골프' }
+	];
+	for(var i = 0; i < level.length; i++){  // 2depth menu
+		$list.append('<option value="' + level[i].catek + '">' + level[i].caten + '</option>')
+	}
+};
+// $(document).ready(function(){ searchMainGnbList() });  // 사용안함
+</script>
+<!-- //inner -->
+</div><!-- //mid -->
+		
+		<div id="gnb">
+			
+
+
+
+
+
+
+
+
+
+
+
+<div class="inner">
+	<!-- 전체메뉴 -->
+	<div class="all">
+		<a href="#n" class="clsNotLoadingBar">전체메뉴</a>
+		<div class="depth" id="m_menu_total"  style="z-index:10001">
+			<ul class="depth_tab"></ul>
+		</div><!-- //depth -->
+	</div><!-- //전체메뉴 -->
+	<!-- GNB -->
+	<ul id="m_menu_sub">
+		
+			
+			
+			
+			<li key="826" lvlid2="-1" level="" pkey="0" gb="URL" style="  "  w="incGnb">
+				
+					<a gb="URL" href="/main/package"
+					     
+						target="_self"
+						
+					 
+					 >해외패키지</a>
+					 
+					
+					
+					
+				
+				
+			</li>
+		
+			
+			
+			
+			<li key="846" lvlid2="-1" level="" pkey="0" gb="URL" style="  "  w="incGnb">
+				
+					<a gb="URL" href="/main/areastart"
+					     
+						target="_self"
+						
+					 
+					 >부산/지방출발</a>
+					 
+					
+					
+					
+				
+				
+			</li>
+		
+			
+			
+			
+			<li key="847" lvlid2="-1" level="" pkey="0" gb="URL" style="  "  w="incGnb">
+				
+					<a gb="URL" href="/main/cruise"
+					     
+						target="_self"
+						
+					 
+					 >크루즈</a>
+					 
+					
+					
+					
+				
+				
+			</li>
+		
+			
+			
+			
+			<li key="848" lvlid2="-1" level="" pkey="0" gb="URL" style="  "  w="incGnb">
+				
+					<a gb="URL" href="/main/honeymoon"
+					     
+						target="_self"
+						
+					 
+					 >허니문</a>
+					 
+					
+					
+					
+				
+				
+			</li>
+		
+			
+			
+			
+			<li key="849" lvlid2="-1" level="" pkey="0" gb="URL" style="  "  w="incGnb">
+				
+					<a gb="URL" href="/main/golf"
+					     
+						target="_self"
+						
+					 
+					 >골프</a>
+					 
+					
+					
+					
+				
+				
+			</li>
+		
+			
+			
+			
+			<li key="851" lvlid2="-1" level="" pkey="0" gb="URL" style="  "  w="incGnb">
+				
+					<a gb="URL" href="/main/domestic"
+					     
+						target="_self"
+						
+					 
+					 >국내여행</a>
+					 
+					
+					
+					
+				
+				
+			</li>
+		
+			
+			
+			
+			<li key="852" lvlid2="-1" level="" pkey="0" gb="URL" style="  "  w="incGnb">
+				
+					<a gb="URL" href="http://air.lottetour.com/findAirSearch.lts"
+					     
+						target="_self"
+						
+					 
+					 >항공권</a>
+					 
+					
+					
+					
+				
+				
+			</li>
+		
+	</ul>
+	<!-- //GNB -->
+</div>
+<script type="text/javascript">var m_ServerCategory = { d1:-1, d2:-1, d3:-1, d4:-1 };</script>
+<!--<script type="text/javascript"> var m_ServerPageNavi = { gbn1:'CS/MY', gbn2:'고객센터', gbn3:'고객상담', gbn4:'' };</script> -->
+<!--<script type="text/javascript"> var m_ServerOgTag = { title:'고객센터', img:'/고객센터.gif', description:'믿고가는 여행 해외패키지 여행은 롯데관광 입니다.' };</script> -->
+</div>
+	</div> <!-- //header -->
+
+	<div id="container">
+		
+		<div class="inner">
+			
+			<div id="contents">
+				
+
+
+
+		</div>
+	</div>
+</div>
+<!--행사리스트 -->
+<script type="text/javascript" src="/statics/js/ltevtlist_layer_for_pc_v0.5.js?v=1.115" ></script>
+<script type="text/javascript">
+/*
+ //다른 출발일 보기
+
+ 예제 1) fnEvtListLayerView(상품번호);  // 상품코드 ( 레벨은 자동선택됨 )
+ 예제 2) fnEvtListLayerView(상품번호, '레벨1', '레벨2', '레벨3', '레벨4'); // 상품코드, 전시메뉴번호 4개 모두 있어야함.
+
+ // 이벤트형 쿠폰 다운로드
+ 예제 1)  couponPub(쿠폰번호);
+ 
+ // 해피콜 신청
+ 예제 1) fnHappyCall(해피콜신청키);
+
+*/
+
+</script>
+
+<style type="text/css">
+	#contents{width:100%;}
+	.inner{width:100%;}
+	.detail{text-align:center;}
+</style>
+
+<!-- <div class="gray_box event detail"> 세로영역고정으로 잡혀 class삭제 -->
+<div class="detail" style="text-align: center;">
+	<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-compatible" content="IE=edge, chrome=1" />
+<title>3.상단이미지컷롤링(2컷이상)</title>
+<script type="text/javascript" src="http://image1.lottetour.com/static/promotion/js/promotion.js"></script>
+<link type="text/css" rel="stylesheet" href="http://image1.lottetour.com/static/promotion/css/promotion.css" />
+</head>
+	
+
+<style>
+
+.wrap .tour01{height:972px;background:url('') no-repeat 50% 0;margin:0 auto; position:relative;}
+
+.promotion2{height:1184px;background:url('http://image1.lottetour.com/static/promotion/2018/10/358/8793_index_2.jpg') no-repeat 50% 0;margin:0 auto; position:Relative;}
+.promotion3{height:1153px;background:url('http://image1.lottetour.com/static/promotion/2018/10/358/8793_index_3.jpg') no-repeat 50% 0;margin:0 auto; position:Relative;}
+.promotion3_1{height:909px;background:url('http://image1.lottetour.com/static/promotion/2018/10/358/8793_index_03_1.jpg') no-repeat 50% 0;margin:0 auto; position:Relative;}
+.promotion4{height:1734px;background:url('http://image1.lottetour.com/static/promotion/2018/10/358/8793_index_04.jpg') no-repeat 50% 0;margin:0 auto; position:Relative;}
+.promotion5{height:2687px;background:url('http://image1.lottetour.com/static/promotion/2018/10/358/8793_index_05_.jpg') no-repeat 50% 0;margin:0 auto; position:Relative;}
+
+
+.fade_sl{position:relative; width:100%; height:972px}
+.fade_sl > div{position:absolute; top:0; left:0; width:100%; height:972px; background-repeat:no-repeat; background-position:center top}
+.fade_sl .sl_item01{background-image:url(http://image1.lottetour.com/static/promotion/2018/10/358/8793_index_1_1.jpg)}
+.fade_sl .sl_item02{display:none; background-image:url(http://image1.lottetour.com/static/promotion/2018/10/358/8793_index_1_2.jpg)}
+.fade_sl .sl_item03{display:none; background-image:url(http://image1.lottetour.com/static/promotion/2018/10/358/8793_index_1_3.jpg)}
+div[class*="travel"]{width:100%; background-repeat:no-repeat; background-position:center top}
+
+</style>
+
+
+<body>
+
+
+
+	<div class="wrap">
+		<div class="tour01">
+       		<div class="fade_sl">
+				<div class="sl_item01 on"></div>
+				<div class="sl_item02"></div>
+				<div class="sl_item03"></div>
+			</div>       
+		</div>
+			<div class="promotion2"></div>
+			<div class="promotion3"></div>
+			<div class="promotion3_1"></div>
+			<div class="promotion4"></div>
+			<div class="promotion5"></div>
+			<div class="promotion7"></div>
+			<div class="promotion9"></div>
+			<div class="promotion11"></div>
+ 			<div class="promotion13"></div>
+	</div>
+
+<hr />
+
+</body>
+</html>
+
+</div>
+<div id="container">
+		<div class="inner">
+			<div id="contents">
+				<ul class="tab_05 ea6 blue">
+					
+						
+							
+								
+								<li class="on"><a href="#n" data-id="997">6개국 12일 상품</a></li>
+							
+							
+						
+					
+						
+							
+							
+								<li><a href="#n" data-id="999">다국가 상품</a></li>
+							
+						
+					
+					
+					
+						<li><a href="#n" class="blank" style="cursor: initial;"></a></li>
+					
+						<li><a href="#n" class="blank" style="cursor: initial;"></a></li>
+					
+						<li><a href="#n" class="blank" style="cursor: initial;"></a></li>
+					
+						<li><a href="#n" class="blank" style="cursor: initial;"></a></li>
+					
+				</ul>
+
+				<div id="listWrap">
+				</div>
+
+				<div class="bot_btns mb60">
+					<a href="/promotion" class="btn_big black">목록</a>
+				</div>
+
+				<form id="promotionForm" method="post">
+					<input type="hidden" name="exhiId" id="exhiId" value="358" />
+					<input type="hidden" name="godTemplateType" id="godTemplateType" value="TMPLISTDEF" />
+					<input type="hidden" name="tabId" id="tabId" value="997" />
+				</form>
+
+				<script type="text/javascript">
+				$(function() {
+
+					fnInitPromotionDispList();
+
+					$('ul[class^="tab_"] li').click(function(){
+						var idx = $(this).index(),
+							tabId = $(this).find('a').attr('data-id'),
+							cont = $(this).parent().siblings('.tab_cont:eq('+idx+')');
+						
+						if(typeof(tabId) !== "undefined") {
+							$(this).addClass('on').siblings().removeClass('on');
+							cont.addClass('on').siblings().removeClass('on');
+							
+							$("#tabId").val(tabId);
+							fnSelectIncPromotionDispList("/promotion/disp/list?" + $("#promotionForm").serialize());
+						}
+					});
+
+				});
+
+				function fnInitPromotionDispList(){
+					fnSelectIncPromotionDispList("/promotion/disp/list?" + $("#promotionForm").serialize());
+				}
+
+				function fnSelectIncPromotionDispList(vUrl){
+					$("#listWrap").load(vUrl);
+				}
+				</script></div> <!-- //contents -->			
+		</div>	
+		
+	</div> <!-- //container -->
+	
+	<div id="quickmenu">
+		
+
+
+
+	
+		
+	
+	
+
+
+<div class="quick_menu ">
+	<a href="#n" class="switch clsNotLoadingBar"><span class="hidden">quick menu 접기/펼치기</span></a>
+	<ul>
+		<li class="m1"><a href="/search"><span>통합검색</span></a></li>
+		<li class="today" id="quickmenuList">
+		</li>
+		<li class="m2"><a href="/cs/ars"><span>ARS 결제안내</span></a></li>
+		<li class="m3"><a href="/cs/newscard"><span>무이자할부</span></a></li>
+		<li class="m4"><a href="/cs/leadersedu"><span>인솔자소양교육</span></a></li>
+		<li class="m5"><a href="/cs/biznetwork"><span>영업점 안내</span></a></li>
+		<li class="m6"><a href="http://legal.lottetour.com/welcome" target="_blank"><span>기업/단체문의</span></a></li>
+	</ul>
+	<a href="#n" class="page_top">TOP<i></i></a>
+</div><!-- //quick_menu -->
+
+<div id="today_items_list">
+</div>
+
+<script type="text/javascript">
+$(function() {
+	fnInitQuickmenuList();
+	
+	//퀵메뉴 접기/펼치기
+	$('.quick_menu .switch').unbind();
+	$('.quick_menu .switch').click(function(){
+		if($(this).parent().hasClass('off')){
+			$(this).parent().removeClass('off').addClass('on');
+			fnSetCookie("quickmenu", "on", 30);
+		}else{
+			$(this).parent().removeClass('on').addClass('off');
+			fnSetCookie("quickmenu", "off", 30);
+		}
+	});
+});
+
+function fnNextPage(obj){
+	var aObj = obj;
+	fnSelectIncQuickmenuList($(aObj).attr('href'));
+}
+
+function fnInitQuickmenuList(){
+	var rvwInitUrl = "/quickmenu/list?pageIndex=1";
+	fnSelectIncQuickmenuList(rvwInitUrl);
+}
+
+function fnSelectIncQuickmenuList(vUrl){
+	$("#quickmenuList").load(vUrl);
+}
+
+function fnSelectIncQuickmenuView(pageIndex, godId){
+	$.ajax({
+		type : "GET",
+		url : "/quickmenu/view?pageIndex="+pageIndex+"&godId="+godId,
+		dataType : "html",
+		success : function(data) {
+			$("#today_items_list").html(data);
+			layerOpen('today_items');
+		},
+		error : function(e) {
+		}, timeout:100000
+	});
+}
+</script></div> <!-- //quickmenu -->
+		
+	<div id="footer">
+		
+
+
+
+
+<script>
+$(function(){
+	var m = new m_footerbanner(); m.load(); // footer banner
+	var m = new m_commNews(); m.load();  // 공지사항 설정
+});
+
+// 하단 이미지 배너 객체
+var m_footerbanner = function(){
+	this.id = {cookie: 'footerimgbanner', viewid:'devFooterBanner'};
+	this.load = function(){
+		oxSrg.useSrg = sessionStorage;  // 세션스토리지 설정
+		//var s = this.getStorage();
+		if(typeof(s) == 'undefined' || s == '' || s == null){
+			this.getForServer();
+			return ;
+		}
+		$("#" + this.id.viewid).html(s);
+	};
+	this.getStorage = function(){ return oxSrg.cGet(this.id.cookie); };
+	this.getForServer = function(){
+		$.ajax({
+			url:'/commonimgbannerAjax?disCd=PC005&disGbn=footerbanner&maxCnt=1'
+		}).done(function(getHtml){
+			//console.log(getHtml);
+			var m = new m_footerbanner();
+			oxSrg.cSet(m.id.cookie, getHtml);
+			//if(getHtml == null || getHtml == ""){
+			//}
+			if($.parseHTML(getHtml).length == 1){
+				$("#" + m.id.viewid).css("display","none");
+			}else{
+				$("#" + m.id.viewid).append(getHtml);
+			}
+		});
+	};
+};
+
+// 하단 공지 관리 객체
+var m_commNews = function(){
+	this.id = {cookie: 'commnews', viewid:'noticeNews' };
+	this.load = function(){
+		oxSrg.useSrg = sessionStorage;  // 세션스토리지 설정
+		var s = this.getNews();
+		if(typeof(s) == 'undefined' || s == '' || s == null){
+			this.getListForServer();
+			return ;
+		}
+		$("#" + this.id.viewid).html(s);
+	};
+	this.getNews = function(){ return oxSrg.cGet(this.id.cookie); };
+	this.getListForServer = function(){
+		$.ajax({
+			url:'/comm/news/footerlist?maxCnt=5&boardCd='
+		}).done(function(getHtml){
+			//console.log(getHtml);
+			var m = new m_commNews();
+			oxSrg.cSet(m.id.cookie, getHtml);
+			$("#" + m.id.viewid).append(getHtml);
+		});
+	};
+};
+
+
+//input 번호만 받기 유현석 20180828
+function onlyNumber(event){
+	event = event || window.event;
+	var keyID = (event.which) ? event.which : event.keyCode;
+	if ( (keyID >= 48 && keyID <= 57) || (keyID >= 96 && keyID <= 105) || keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 )
+		return;
+	else
+		return false;
+}
+
+//input 문자삭제 유현석 20180828
+function removeChar(event) {
+	event = event || window.event;
+	var keyID = (event.which) ? event.which : event.keyCode;
+	if ( keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 )
+		return;
+	else
+		event.target.value = event.target.value.replace(/[^0-9]/g, "");
+}
+
+function appDownPop(gbn){
+	var pop = $(".ease_layer");
+	if(gbn){
+		pop.css("display","block");
+	}else{
+		pop.css("display","none");
+	}
+}
+
+function appDownValidation(){
+	var trip = $("#down_trip");
+	var air = $("#down_air");
+	var phoneNum = $("#phoneNum");
+
+	if(trip.prop("checked") == false && air.prop("checked") == false){
+		alert("다운받으시고자 하는 앱을 체크해주세요.");
+		return false;
+	}
+
+	var regExp = /^\d{3}\d{3,4}\d{4}$/;
+
+	if(phoneNum.val() == "" || phoneNum.val()){
+		if(regExp.test(phoneNum.val())){
+			$.ajax({
+				type : "POST",
+				url : "/mapp",
+				data : $("#mappForm").serialize(),
+				dataType : "json",
+				success : function(data) {
+					if(data.code == "SUCCESS") {
+						alert("전송에 성공하였습니다.\n문자 전송까지는 3초~30초 가량의 시간이 소요됩니다.");
+						phoneNum.val("");
+						trip.prop("checked", false);
+						air.prop("checked", false);
+						appDownPop(false);
+					} else if(data.code == "ERROR"){
+						alert("");
+					}
+				},
+				error : function(e) {
+				}, timeout:100000
+			});
+		}else{
+			alert("전송에 실패하였습니다.\n잠시 후 다시 요청해주세요.");
+			return false;
+		}
+	}
+
+}
+</script>
+
+<!--AceCounter-Plus Log Gathering for AceTag Manager V.9.2.20170103-->
+<script type="text/javascript">
+var _AceTM = (function (_j, _s, _b, _o, _y) {
+	var _uf='undefined',_pmt='',_lt=location;var _ap = String(typeof(_y.appid) != _uf ? _y.appid():(isNaN(window.name))?0:window.name);var _ai=(_ap.length!=6)?(_j!=0?_j:0):_ap;if(typeof(_y.em)==_uf&&_ai!=0){var _sc=document.createElement('script');var _sm=document.getElementsByTagName('script')[0];
+	var _cn={tid:_ai+_s,hsn:_lt.hostname,hrf:(document.referrer.split('/')[2]),dvp:(typeof(window.orientation)!=_uf?(_ap!=0?2:1):0),tgp:'',tn1:_y.uWorth,tn2:0,tn3:0,tw1:'',tw2:'',tw3:'',tw4:'',tw5:'',tw6:'',tw7:_y.pSearch};_cn.hrf=(_cn.hsn!=_cn.hrf)?_cn.hrf:'in';for(var _aix in _y){var _ns=(_y[_aix])||{};
+	if(typeof(_ns)!='function'){_cn.tgp=String(_aix).length>=3?_aix:'';_cn.tn2=_ns.pPrice;_cn.tn3=_ns.bTotalPrice;_cn.tw1=_ns.bOrderNo;_cn.tw2=_ns.pCode;_cn.tw3=_ns.pName;_cn.tw4=_ns.pImageURl;_cn.tw5=_ns.pCategory;_cn.tw6=_ns.pLink;break;};};_cn.rnd=(new Date().getTime());for(var _alx in _cn){
+	var _ct=String(_cn[_alx]).substring(0,128);_pmt+=(_alx+"="+encodeURIComponent((_ct!=_uf)?_ct:'')+"&");};_y.acid=_ai;_y.atid=_cn.tid;_y.em=_cn.rnd;_sc.src=((_lt.protocol.indexOf('http')==0?_lt.protocol:'http:')+'//'+_b+'/'+_o)+'?'+_pmt+'py=0';_sm.parentNode.insertBefore(_sc,_sm);};return _y;
+})(100221,'AZ-40-A', 'atm.acecounter.com','ac.js',window._AceTM||{});
+</script>
+<!--AceCounter-Plus Log Gathering for AceTag Manager End -->
+<div class="layer service" id="satisfyLayer">
+</div>
+<div class="foot_cs">
+	<div class="inner">
+		<ul>
+			<li><strong>해외여행</strong> 1577-3000</li>
+			<li><strong>국내여행</strong> 1577-3700</li>
+		</ul>
+		<ul>
+			<li>부산 지사 : 1688-1105</li>
+			<li>대전 지사 : 1688-1102</li>
+			<li>대구 지사 : 1688-1103</li>
+			<li>광주 지사 : 1688-1104</li>
+		</ul>
+		<p><strong>롯데관광 여행상담</strong>월-금 09:00 ~ 18:00 <i>|</i> 토,일/공휴일 09:00 ~ 15:00 (당직근무)<span class="ml20"><strong>롯데관광 항공권상담</strong>월-금 09:00 ~ 18:00</span></p>
+	</div>
+</div>
+
+<div class="foot_tel">
+	<div class="inner">
+		<strong>지역별 전화번호 안내</strong>
+		<div>
+			<ul>
+				<li><strong>일본</strong>02-2075-3001</li>
+				<li><strong>중국/대만/몽골/인도</strong>02-2075-3002</li>
+				<li><strong>동남아/홍콩</strong>02-2075-3003</li>
+			</ul>
+			<ul>
+				<li><strong>미주/중남미</strong>02-2075-3004</li>
+				<li><strong>남태평양/괌/사이판</strong>02-2075-3005</li>
+				<li><strong>유럽/중동/아프리카</strong>02-2075-3006</li>
+			</ul>
+			<ul>
+				<li><strong>크루즈/디스커버리</strong>02-2075-3400</li>
+				<li><strong>허니문</strong>02-2075-3333</li>
+				<li><strong>골프</strong>02-2075-3364</li>
+			</ul>
+			<ul>
+				<li><strong>법인/기업/상용</strong>02-2075-3810</li>
+				<li><strong>해외항공권</strong>02-2075-3222</li>
+				<li><strong>국내항공권</strong>02-2075-3344</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="foot_banner" id="devFooterBanner"></div>
+
+<div class="foot_quick">
+	<div class="inner">
+		<dl class="notice">
+			<dt>공지사항</dt>
+			<dd>
+				<ul id="noticeNews"></ul>
+			</dd>
+			<a href="/cs/news" class="more"><img src="/statics/images/icon_plus_gray.gif" alt="공지사항 더보기" /></a>
+		</dl>
+		<dl class="mobile">
+			<dt>모바일앱</dt>
+			<dd><a href="javascript:appDownPop(true);" class="app_package"><i></i>패키지</a></dd>
+			<dd><a href="javascript:appDownPop(true);" class="app_flight"><i></i>항공</a></dd>
+			<dd class="ease_layer">
+				<form id="mappForm">
+				<div class="layer_top">언제 어디서나 쉽고 편한, 롯데관광 앱을 만나는 방법!</div>
+				<div class="layer_body">
+					<div class="check_div">
+						<label><input type="checkbox" name="trip" id="down_trip"/><i class="ico_app"></i> 롯데관광 APP</label>
+						<label><input type="checkbox" name="air" id="down_air"/><i class="ico_air_app"></i> 롯데관광 항공 APP</label>
+					</div>
+					<div class="mms_set">
+						<input type="text" name="phoneNum" id="phoneNum" onkeydown='return onlyNumber(event)' onkeyup='removeChar(event)'/>
+						<a href="javascript:appDownValidation();">MMS 전송</a>
+					</div>
+					<p>입력하신 정보는 저장되지 않으며, 무료 전송입니다. <br />문자 전송까지는 3초~30초 가량의 시간이 소요됩니다.<br />MMS(장문문자)로 전송되며, MMS 차단 휴대폰은 전송이 불가합니다.</p>
+				</div>
+				<a href="javascript:appDownPop(false);" class="btn_x"></a>
+				</form>
+			</dd>
+		</dl>
+		<ul class="sns">
+			<li><a href="https://www.facebook.com/lottetouro" target="_blank"><img src="/statics/images/btn_foot_sns01.png" alt="페이스북" /></a></li>
+			<li><a href="https://twitter.com/lttour" target="_blank"><img src="/statics/images/btn_foot_sns02.png" alt="트위터" /></a></li>
+			<li><a href="https://blog.naver.com/happylt" target="_blank"><img src="/statics/images/btn_foot_sns03.png" alt="블로그" /></a></li>
+			<li><a href="https://story.kakao.com/ch/lottetour" target="_blank"><img src="/statics/images/btn_foot_sns04.png" alt="카카오스토리" /></a></li>
+			<li><a href="https://pf.kakao.com/_xenxfxhl" target="_blank"><img src="/statics/images/btn_foot_sns05.png" alt="카카오톡" /></a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="foot_menu">
+	<ul>
+		<li><a href="http://company.lottetour.com/welcome" target="_blank">회사소개</a></li>
+		<li><a href="http://company.lottetour.com/html/invest/invest_01" target="_blank">IR</a></li>
+		<li><a href="/cs/agreement">이용약관</a></li>
+		<li><a href="/cs/contract">여행약관</a></li>
+		<li><a href="/cs/insurterms">여행보험약관</a></li>
+		<li><a href="http://www.0404.go.kr/dev/main.mofa" target=“_blank”>해외여행안전정보</a></li>
+		<li class="privacy"><a href="/cs/privacy">개인정보처리방침</a></li>
+		<li><a href="#none" onclick="javascript:window.open('/cs/partner/add','window','width=870, height=670');">사업제휴</a></li>
+		<li><a href="http://company.lottetour.com/cyberpr/notice/A0023" target="_blank">회사공고</a></li>
+		<li><a href="http://company.lottetour.com/html/info/companyinfo_08" target="_blank">대리점 모집</a></li>
+	</ul>
+</div>
+
+<div class="black">
+	<div class="upper">
+		<div class="txt">
+			<address>롯데관광개발(주) | 대표이사: 백현 | 주소: 03186 서울특별시 종로구 세종대로 149 광화문빌딩 11/12층 | 사업자등록번호 101-81-10173 | 관광협회 보증보험 15억원 | 배상책임보험 5억원<br>
+통신판매업신고  종로 제2003-01020호 | <a href="http://www.ftc.go.kr/www/bizCommList.do?key=232" target="_blank">사업자정보확인</a> | 관광사업자 등록번호 : 제1997-000001호 | 개인정보 관리책임자: IT지원 팀장 <br>
+해외여행 1577-3000 국내여행 1577-3700<br>
+롯데관광개발㈜는 개별 항공권 단독 판매에 대하여 통신판매중개자로서 통신판매의 당사자가 아니며 해당 상품의 거래정보 및 거래 등에 대해 <br>책임을 지지 않습니다.<br></address>
+			<p>copyright © lottetour.com All rights reserved. Contact web master for more information.</p>
+		</div>
+		<div class="right_site">
+			<ul>
+				<li><a href="http://www.smartoutbound.or.kr/guide/html/guideInfo4.do?menu_code=0000000016" target="_blank"><img src="/statics/images/img_mark11.png"  alt="국외여행상품 정보제공 표준안 참여 여행사" /></a></li>
+				<li><a href="http://www.smartoutbound.or.kr/guide/html/guideInfo4.do?menu_code=0000000016" target="_blank">국외여행상품<br>정보제공 표준안 참여여행사</a></li>
+			</ul>
+		</div> 
+	</div>
+	<div class="lower">
+		<ul>
+			<li>
+				<div><img src="/statics/images/img_mark02.png" alt="" /></div>
+				<p>2019 한국서비스대상<br />4년 연속 수상</p>
+			</li>
+			<li>
+				<div><a href="http://www.kca.go.kr/ccm/" target="_blank"><img src="/statics/images/img_mark03.png" alt="" /></a></div>
+				<p><a href="http://www.kca.go.kr/ccm/" target="_blank">소비자중심경영<br />공정거래위원회 한국소비자원</a></p>
+			</li>
+			<li>
+				<div><img src="/statics/images/img_mark04.png" alt="" /></div>
+				<p>2019 대한민국대표<br />19년연속 TTG 수상</p>
+			</li>
+			<li>
+				<div><img src="/statics/images/img_mark05.png" alt="" /></div>
+				<p>2019 콜센터품질지수 KS-CQI<br>여행사부문 1위</p>
+			</li>
+			<li>
+				<div><img src="/statics/images/img_mark10.png" alt="" /></div>
+				<p>금탑산업훈장 <br />석탑,철탑,동탑 산업훈장</p>
+			</li>
+		</ul>
+	</div>
+</div>
+<!----------------------상품비교 s -->
+<div class="layer compare" id="devEvtCompare">
+	<div class="layer_top">
+		<h1>선택상품 비교하기</h1>
+	</div>
+	<div class="layer_body">
+		<div class="y_box" id="printLayer">
+			<table class="table h">
+				<caption>선택상품 비교하기</caption>
+				<colgroup>
+					<col style="width:120px" />
+					<col style="width:265px" />
+					<col style="width:265px" />
+				</colgroup>
+				<tbody id="compareResult"></tbody>
+			</table>
+		</div>
+		<div class="bot_btns">
+			<a href="#n" class="btn_default white" onclick="fnLtPrint('devEvtCompare');">인쇄하기</a>
+			<a href="#n" class="btn_default evony" onclick="layerClose('layer')">창닫기</a>
+		</div>
+	</div>
+	<a href="#n" class="layer_x" onclick="layerClose(this)"><img src="/statics/images/btn_layer_x.png" alt="닫기"></a>
+</div>
+<!-- --------------------상품비교 e -->
+
+<!-- Mac 경로! -->
+<script type="text/javascript" src="/statics/js/tracking/mac_sv110.js"></script>
+
+<!-- 모비온 -->
+<!-- Mobon Tracker v3.1 [공용] start -->
+<script type="text/javascript">
+<!--
+        function mobRf(){
+               var rf = new EN();
+               rf.setSSL(true);
+               rf.sendRf();
+        }
+//-->
+</script>
+<script src="https://cdn.megadata.co.kr/js/enliple_min2.js" defer="defer" onload="mobRf()"></script>
+<!-- Mobon Tracker v3.1 [공용] end -->
+
+<!-- TG -->
+<!-- WIDERPLANET  SCRIPT START 2018.10.19 -->
+<div id="wp_tg_cts" style="display:none;"></div>
+<script type="text/javascript">
+var wptg_tagscript_vars = wptg_tagscript_vars || [];
+wptg_tagscript_vars.push(
+(function() {
+	return {
+		wp_hcuid:"",
+		ti:"11330",
+		ty:"Home",
+		device:"web"
+		
+	};
+}));
+</script>
+<script type="text/javascript" async src="//cdn-aitg.widerplanet.com/js/wp_astg_4.0.js"></script>
+<!-- // WIDERPLANET  SCRIPT END 2018.10.19 -->
+
+<!-- 아크로스 -->
+<!-- ADN Tracker[공통] start -->
+<script type="text/javascript">
+var adn_param = adn_param || [];
+adn_param.push([{
+ ui:'100277',
+ut:'Home'
+}]);
+</script>
+<script type="text/javascript" async src="//fin.rainbownine.net/js/adn_tags_1.0.0.js"></script>
+<!-- ADN Tracker[공통] end -->
+
+<!-- N2S -->
+<!-- 
+<script> (function(i, s, o, g, r, a, m) {a = s.createElement(o),m = s.getElementsByTagName(o)[0];a.async = 1;a.src = g;m.parentNode.insertBefore(a, m)})(window, document, 'script', '//js1.n2s.co.kr/n2s_tags_1.0.0.js', 'n2s'); var n = n || [];n.push([{id:'lottetour',uid:'10161'}]); </script>
+ -->
+
+<!-- 네이버 -->
+<!-- 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 --> 
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"> </script> 
+<script type="text/javascript"> 
+	if (!wcs_add) var wcs_add={};
+	wcs_add["wa"] = "s_1c552a0808d6";
+	if (!_nasa) var _nasa={};
+	wcs.inflow();
+	wcs_do(_nasa);
+</script>
+
+<!-- GDN -->
+<!-- Global site tag (gtag.js) - Google Ads: 965585187 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-965585187"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-965585187');
+</script>
+
+<!-- 모먼트 -->
+<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js"></script>
+<script type="text/javascript">
+      kakaoPixel('5796242007175087757').pageView();
+</script>
+
+<!-- ACE Trader -->
+<script type="text/javascript" src="//static.tagmanager.toast.com/tag/view/1305"></script>
+<script type="text/javascript">
+window.ne_tgm_q = window.ne_tgm_q || [];
+window.ne_tgm_q.push(
+{
+  tagType: 'visit',
+  device: 'web',
+  uniqValue: '',
+  pageEncoding: 'utf-8'
+});
+</script>
+</div> <!-- //footer -->
+
+</div><!-- //wrap --> 
+ 
+</body>
+</html>

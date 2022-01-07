@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document*/
+
+#wrap{width:100%; overflow:hidden;}
+
+#contents{margin:0 auto; width:1000px; height: 800px;}
+    
+    .login_txt1{margin:95px 0 0 99px; width:799px; height:43px; border-bottom:1px solid #ccc;}
+    .login_txt1 .login_title{font:bold 24px "맑은 고딕"; color:#f15a22;}
+    .login_txt1 h2{color:#000; font-size:15px;}
+#contents .join_top{margin:24px 0 0 95px;}
+
+#contents .cont1{margin:54px auto; width: 878px; height:316px; border-bottom: 2px solid #bbb;}
+
+#contents .success{text-align: center;}
+#contents .cont1 h2{text-align: center; font:bold 28px "맑은 고딕"; margin-top:53px;}
+#contents .cont1 .welcome_txt{text-align: center; font-size:14px; color:#555; margin-top:34px; line-height:1.5}
+
+#contents .cont2{width: 330px; height: 47px; margin:0 auto;}
+#contents .home{float:left;}
+#contents .home a{width:156px; height:45px; background:#fff; display: block; padding:10px; box-sizing:border-box; color:#000; border:1px solid #000; font-size:18px; text-align:center; transition: 0.5s;}
+#contents .home a:hover{background: #9d8e88;}
+
+#contents .login{float:right;}
+#contents .login a{width:157px; height:45px; background:#ff6600; display: block; padding:10px; box-sizing:border-box; color:#fff; font-size:18px; text-align:center; transition: 0.5s;}
+#contents .login a:hover{background: #e25a00;}

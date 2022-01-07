@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document*/
+
+#wrap{width:100%; overflow:hidden;}
+
+
+/* visual */
+#visual{width:1000px; height:300px; position:relative; left:50%; margin-left:-500px;}
+#visual img{width: 1000px; height: 300px;}
+
+
+/* contents */
+#contents{margin:0px auto; width:1000px; height:1300px;}
+#contents .event_txt1{margin:30px 0 9px 20px; font:bold 28px "맑은 고딕";}
+
+#contents .event_txt{width:1000px; height:46px; border-bottom: 2px solid #777}
+
+
+.cont1{width:1000px; height: 220px; margin-top: 24px;}
+.cont1 h3{font:bold 18px "맑은 고딕";}
+.cont1 .mark{position: relative; top: 4px; margin:0 6px 0 20px;}
+.cont1 .refresh_logo{margin:45px 0 35px 40px;}
+.cont1 p{font-size: 16px; margin-left: 40px;}
+.cont1 span{font-size: 14px;}
+
+.cont2{width:1000px; height: 220px; margin:80px 0}
+.cont2 h3{font:bold 18px "맑은 고딕";}
+.cont2 .mark{position: relative; top: 4px; margin:0 6px 0 20px;}
+.cont2 .card{float: right; margin-right: 380px;}
+.cont2 p{clear:both; font-size: 16px; margin-left: 40px;}
+
+.cont3{width:1000px; height: 290px; margin-bottom: 173px;}
+.cont3 h3{font:bold 18px "맑은 고딕";}
+.cont3 .mark{position: relative; top: 4px; margin:0 6px 0 20px;}
+.cont3 .cont3_img{margin:60px 0 30px 20px;}
+.cont3 span{font-size: 12px;}
+.cont3 ul{}
+.cont3 li{font:bold 16px "맑은 고딕";}
+.cont3 li:first-child{}
+.cont3 li:nth-child(2){margin:0 0 0 25px; text-align: center;}
+.cont3 li:nth-child(3){margin-left: 40px;}
+.cont3 li:nth-child(4){margin-left: 38px;}
+.cont3 li:last-child{margin-left: 15px;}
+
+
+
+/* cont7 */
+
+#contents7{margin:50px auto; width:1000px; height:164px; position:relative; border-top:1px solid #000;}
+ 
+     #contents7 .cont7_box1{position:absolute; width:360px; height:99px; top:32px; left:30px;}
+        #contents7 .cont7_box1 p:first-child{font-size:20px; font-weight:bold;}
+        #contents7 .cont7_box1 p:nth-child(2){color:#f2693d; font-size:36px;}
+        #contents7 .cont7_box1 p:last-child{font-size:14px;}
+    #contents7 .cont7_box2{position:absolute; width:471px; height:62px; top:32px; right:55px;}
+        #contents7 .cont7_box2 p{font-size:20px; font-weight:bold; margin-bottom:18px;}
+        #contents7 .cont7_box2 li{float:left; font-size:15px; margin-right:11px; font-weight:bold; line-height:1.7}
+        #contents7 .cont7_box2 img{margin-right:5px;}
+#contents7 a{color:black;} 

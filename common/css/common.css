@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* base */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dd,dt,hr{margin:0; padding:0;}
+body{font:normal 12px "맑은 고딕", Malgun Gothic;}
+img{vertical-align:top; border:0;}
+a{text-decoration:none;}
+ul{list-style:none;}
+table{border-collapse:collapse;}
+
+
+/* header */
+#header{width:100%; height:210px; background:#fff; z-index: 20; position: relative;}
+#header .header_login_wrap{width:100%; height:34px; background:#e3e2e1; z-index: 20;}
+    #header .header_login{margin:0 auto;width:1000px; height:34px; }
+        #header .header_login ul{float:right; margin:9px 50px 0 0;}
+            #header .header_login li{float:left; margin-right:8px; color: #525252; }
+            #header .header_login li a{color:#525252; transition: 0.5s;}
+            #header .header_login li a:hover{text-decoration: underline; color:#ff6600;}
+
+
+#header .menu_wrap{width: 100%; height: 50px; position: absolute; top: 159px; left: 0; z-index: 20;}
+#header  .logo_box{width:1000px;height:127px;margin:0 auto;}
+#header h1{text-align:center; }
+#header h1 img{margin-top:35px;}
+
+
+#header .header_gnb{width:100%; height:50px; background:#f15a23; z-index: 20;}
+#header .header_gnb .menu{margin:0 auto;width:1000px;height:50px; position: relative;}
+#header .header_gnb .gnb{float:left; margin:19px 0 0 157px; width:745px; height:32px;}
+#header .header_gnb .gnb>li{float:left; margin-right:57px;font-size:16px;}
+#header .header_gnb .m>a{color:white; font-weight:bold;}
+
+#header .header_gnb .gnb{line-height:0.8;}
+#header .header_gnb .gnb>li:hover>a{color:#000;}
+
+.gnb .submenu{width: 1000px; height: 120px; position: absolute; top: 50px; left: 0; background: rgba(243,244,246,0.9); font-size: 16px; }
+
+.gnb .submenu li{width: 160px; height: 120px; text-align: center; margin:0px 50px 0 0px; line-height: 200px;}
+.gnb .submenu li:first-child{margin-left: 100px;}
+.gnb .submenu li a{width: 160px; height: 120px;color:#595a5d; text-align: center; font-weight: bold; display: block; transition: all 0.3s;}
+.gnb .submenu li a:hover{color:#00a7e1; font-weight: bold;}
+
+.gnb .submenu3 li:first-child{margin-left: 320px;}
+.gnb .submenu4 li:first-child{margin-left: 200px;}
+
+
+.submenu1{display: none;}
+.submenu2{display: none;}
+.submenu3{display: none;}
+.submenu4{display: none;}
+.submenu5{display: none;}
+
+/*sub1*/
+.submenu1 img:first-child{position: absolute; top: 15px;left: 151px; height: 60px; transition: all 0.3s;}
+.submenu1 img:nth-child(2){position: absolute; top: 15px;left: 151px; height: 60px; transition: all 0.3s;}
+
+.submenu1 li:nth-child(2) img{position: absolute; top: 25px; left: 355px; height: 50px; transition: all 0.3s;}
+.submenu1 li:nth-child(3) img{position: absolute; top: 20px; left: 585px; height: 60px; transition: all 0.3s;}
+.submenu1 li:nth-child(4) img{position: absolute; top: 25px; left: 786px; height: 50px; transition: all 0.3s;}
+
+/*sub2*/
+.submenu2 img:first-child{position: absolute; top: 25px;left: 165px; height: 50px; transition: all 0.3s;}
+.submenu2 img:nth-child(2){position: absolute; top: 25px;left: 165px; height: 50px; transition: all 0.3s;}
+
+.submenu2 li:nth-child(2) img{position: absolute; top: 25px; left: 355px; height: 50px; transition: all 0.3s;}
+.submenu2 li:nth-child(3) img{position: absolute; top: 20px; left: 573px; height: 60px; transition: all 0.3s;}
+.submenu2 li:nth-child(4) img{position: absolute; top: 25px; left: 790px; height: 50px; transition: all 0.3s;}
+
+/*sub3*/
+.submenu3 img:first-child{position: absolute; top: 25px;left: 376px; height: 50px; transition: all 0.3s;}
+.submenu3 img:nth-child(2){position: absolute; top: 25px;left: 376px; height: 50px; transition: all 0.3s;}
+
+.submenu3 li:nth-child(2) img{position: absolute; top: 25px; left: 583px; height: 50px; transition: all 0.3s;}
+
+/* sub4 */
+.submenu4 img:first-child{position: absolute; top: 21px;left: 258px; height: 55px; transition: all 0.3s;}
+.submenu4 img:nth-child(2){position: absolute; top: 21px;left: 258px; height: 55px; transition: all 0.3s;}
+
+.submenu4 li:nth-child(2) img{position: absolute; top: 25px; left: 456px; height: 50px; transition: all 0.3s;}
+.submenu4 li:nth-child(3) img{position: absolute; top: 23px; left: 677px; height: 57px; transition: all 0.3s;}
+
+/* sub5*/
+.submenu5 img:first-child{position: absolute; top: 20px;left: 151px; height: 55px; transition: all 0.3s;}
+.submenu5 img:nth-child(2){position: absolute; top: 20px;left: 151px; height: 55px; transition: all 0.3s;}
+
+.submenu5 li:nth-child(2) img{position: absolute; top: 20px; left: 365px; height: 55px; transition: all 0.3s;}
+.submenu5 li:nth-child(3) img{position: absolute; top: 23px; left: 577px; height: 57px; transition: all 0.3s;}
+.submenu5 li:nth-child(4) img{position: absolute; top: 25px; left: 784px; height: 50px; transition: all 0.3s;}
+
+
+/* submenu 이미지 호버 */
+.gnb .submenu li img:nth-child(2){opacity: 0;} 
+.gnb .submenu li:hover img:first-child{opacity: 0;} 
+.gnb .submenu li:hover img:nth-child(2){opacity: 1;}
+
+
+/*black back*/
+.black_back{width: 100%; height: 100%; position: fixed; top: 0px; left: 0; background: rgba(0,0,0,0.7); display: none; z-index: 15;}
+
+
+/* footer */
+
+#footer{width:100%; height:168px; background:#eee;}
+    #footer .footer_inner{margin:0 auto; width:924px; height:168px; position:relative;}
+        #footer .footer_menu{width:924px; height:84px; background:#eee; border-bottom:1px solid #000;}
+        #footer .footer_menu .foot_logo{float:left; position:absolute; top:35px; left:0;}
+        #footer .footer_menu ul, li{float:left}
+#footer .footer_menu ul{width:590px; height:43px; margin:20px 0 0 127px;}
+        #footer .footer_menu li{margin-right:8px; line-height:1.8}
+        #footer .footer_menu a{color:#000;}
+        #footer .footer_menu a:hover{text-decoration:underline;}
+        #footer .footer_menu .ios_logo{position:absolute; top:20px; right:144px;}
+        #footer .footer_menu .and_logo{position:absolute; top:22px; right:58px;}
+
+
+#footer .footer_add{width:924px; height:83px; margin-top:15px;}
+
+.top{position:fixed; right:10px; bottom:30px; display:none; transition: all 0.5s;}

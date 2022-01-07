@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrap{width:100%; overflow:hidden;}
+
+#contents{margin:0 auto; width:1000px; height: 1300px;}
+    
+    .login_txt1{margin:95px 0 0 99px; width:799px; height:43px; border-bottom:1px solid #ccc;}
+    .login_txt1 .login_title{font:bold 24px "맑은 고딕"; color:#f15a22;}
+    .login_txt1 h2{color:#000; font-size:15px;}
+    
+#contents .join_top{margin:24px 0 0 95px;}
+
+#contents .join_txt{margin:40px 0 15px 95px; font-size:14px; font-weight: bold;}
+/*#contents .join_txt2{float:right; margin-right:128px;}*/
+
+#contents .cont1{margin:10px 0 24px 95px;width:800px; height:350px; overflow:auto; border:1px solid #ccc;}
+#contents .join_txt1{float:right; margin-right:115px;}
+#contents .chk{position:relative; top:2px;}
+
+#contents .join_txt2{margin:75px 0 15px 95px; font:bold 14px "맑은 고딕";}
+
+#contents .cont2{margin:10px 0 24px 95px;width:800px; height:350px; overflow:auto; border:1px solid #ccc;}
+#contents .join_txt3{float:right; margin-right:115px;}
+
+#contents .join_btn{margin-top:75px;}
+#contents .join_btn a{width:100px; height:40px; display:block; background:#ff6600; box-sizing: border-box; color:#fff; font-size:13px; text-align:center; margin:0 auto; padding-top:11px; transition: 0.5s;}
+
+#contents .join_btn a:hover{background: #e25a00;}
+
